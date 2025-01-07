@@ -18,6 +18,7 @@ public class MulakatSorusu {
 
             for(int k = 0; k <(mainArray.length-1); k++) { // Karşılaştırılacak elemanı seçiyor
                 System.out.print(mainArray[i][k] + " ");
+               
                 for(int z = 0; z < mainArray.length; z++) { // Sırayla karşılaştırılacak elemanları seçmek için ilk boyut
 
                     for(int x = 0; x < (mainArray.length-1); x++) { // Sırayla karşılaştırılacak elemanları seçmek için ikinci boyut
@@ -26,12 +27,9 @@ public class MulakatSorusu {
                         else
                             System.out.print(0 + " ");
                     }
-
-
                 }
                 System.out.println();
             }
-
         }
 
     }
